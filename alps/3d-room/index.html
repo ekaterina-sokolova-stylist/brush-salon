@@ -4,25 +4,64 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Интерактивная 3D-модель салона красоты «БРАШ» для помещения «Альпы». Планировка, мебель, оборудование и рабочие зоны.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src 'self' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="Интерактивная 3D-модель салона красоты БРАШ в помещении Альпы с точной расстановкой мебели и оборудования.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:title" content="БРАШ · 3D-план салона «Альпы»">
-<meta property="og:description" content="Интерактивная планировка салона: рабочие зоны, мебель и оборудование.">
+<meta property="og:title" content="БРАШ · 3D-план салона">
+<meta property="og:description" content="Интерактивная планировка и точные интерьерные ракурсы салона БРАШ.">
 <meta property="og:url" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/">
 <meta property="og:image" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="БРАШ · 3D-план салона «Альпы»">
-<meta name="twitter:description" content="Интерактивная планировка салона: рабочие зоны, мебель и оборудование.">
+<meta name="twitter:title" content="БРАШ · 3D-план салона">
+<meta name="twitter:description" content="Интерактивная планировка и точные интерьерные ракурсы салона БРАШ.">
 <meta name="twitter:image" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/og.png">
 <link rel="canonical" href="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>БРАШ · 3D-план салона «Альпы»</title>
-<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+<title>БРАШ · 3D-план салона</title>
+<style>
+  :root { color-scheme: light; background: #f4f5fb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #20202a; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { min-width: 320px; background: linear-gradient(180deg, #f8f9ff 0%, #f1eef8 100%); }
+  .site-hero, .site-main { width: min(1440px, calc(100% - 32px)); margin-inline: auto; }
+  .site-hero { padding: 30px 0 18px; }
+  .site-kicker { margin: 0 0 6px; color: #6655a5; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+  .site-hero h1 { margin: 0; font-size: clamp(28px, 5vw, 56px); line-height: 1; font-weight: 650; letter-spacing: -.035em; }
+  .site-subtitle { max-width: 760px; margin: 12px 0 0; color: #656574; font-size: 16px; line-height: 1.55; }
+  .viewer { overflow: hidden; background: #fff; border: 1px solid #dedee9; border-radius: 22px; box-shadow: 0 20px 55px rgba(42, 37, 72, .09); }
+  iframe { display: block; width: 100%; height: 820px; margin: 0; border: 0; background: #fff; }
+  .gallery { padding: 54px 0 72px; }
+  .gallery h2 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 38px); letter-spacing: -.025em; }
+  .gallery-intro { margin: 0 0 22px; color: #656574; line-height: 1.55; }
+  .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  figure { margin: 0; overflow: hidden; background: #fff; border: 1px solid #dedee9; border-radius: 18px; }
+  figure a { display: block; color: inherit; text-decoration: none; }
+  figure img { display: block; width: 100%; height: auto; aspect-ratio: 12 / 5; object-fit: cover; background: #eef2ff; }
+  figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 13px 15px 15px; color: #363642; font-size: 14px; }
+  figcaption span:last-child { color: #7262ad; }
+  .site-note { margin: 18px 0 0; color: #6d6d79; font-size: 13px; line-height: 1.5; }
+  @media (max-width: 720px) {
+    .site-hero, .site-main { width: min(100% - 20px, 1440px); }
+    .site-hero { padding-top: 20px; }
+    .site-subtitle { font-size: 14px; }
+    .viewer { border-radius: 15px; }
+    iframe { height: 790px; }
+    .gallery { padding: 38px 0 52px; }
+    .gallery-grid { grid-template-columns: 1fr; gap: 12px; }
+    figure { border-radius: 14px; }
+  }
+</style>
 </head>
 <body>
+<header class="site-hero">
+  <p class="site-kicker">Помещение «Альпы» · 108 м²</p>
+  <h1>Салон «БРАШ»</h1>
+  <p class="site-subtitle">Точная интерактивная модель с рабочими зонами, мебелью и оборудованием. Переключайте режимы и ракурсы, вращайте сцену или включите перестановку предметов.</p>
+</header>
+<main class="site-main">
+<section class="viewer" aria-label="Интерактивная 3D-модель салона">
 <iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Beauty Salon 3D" srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+&lt;html lang=&quot;ru&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
@@ -30,7 +69,7 @@
 &lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
 &lt;title&gt;Beauty Salon 3D&lt;/title&gt;
 &lt;style&gt;:root {
-  color-scheme: light dark;
+  color-scheme: light;
   background-color: var(
     --background,
     var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
@@ -923,11 +962,14 @@ html&gt;body{padding:0}&lt;/style&gt;
     #salon-3d-plan .salon-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
     #salon-3d-plan .salon-control-stack { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     #salon-3d-plan h2 { margin: 0; }
-    #salon-3d-plan .salon-stage { position: relative; width: 100%; aspect-ratio: 1.28 / 1; min-height: 520px; overflow: hidden; }
+    #salon-3d-plan .salon-stage { position: relative; width: 100%; height: clamp(520px, 70vh, 760px); overflow: hidden; background: radial-gradient(circle at 50% 30%, color-mix(in srgb, var(--background) 94%, var(--blue) 6%), color-mix(in srgb, var(--background) 97%, var(--purple) 3%)); transition: background .25s ease; }
+    #salon-3d-plan .salon-stage.is-realistic { background: radial-gradient(circle at 52% 26%, color-mix(in srgb, var(--background) 86%, var(--blue) 14%), color-mix(in srgb, var(--background) 94%, var(--purple) 6%)); }
     #salon-3d-plan canvas { display: block; width: 100%; height: 100%; touch-action: none; }
     #salon-3d-plan .salon-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-    #salon-3d-plan .salon-label { position: absolute; transform: translate(-50%, -50%); padding: 2px 5px; border-radius: 4px; background: color-mix(in srgb, var(--background) 84%, transparent); color: var(--foreground); border: 1px solid color-mix(in srgb, var(--border) 70%, transparent); white-space: nowrap; font-weight: 500; }
+    #salon-3d-plan .salon-label { position: absolute; transform: translate(-50%, -50%); padding: 2px 5px; border-radius: 4px; background: color-mix(in srgb, var(--background) 84%, transparent); color: var(--foreground); border: 1px solid color-mix(in srgb, var(--border) 70%, transparent); white-space: nowrap; font-weight: 500; transition: opacity .2s ease; }
+    #salon-3d-plan .salon-stage.is-realistic .salon-labels { opacity: 0; }
     #salon-3d-plan .salon-status { position: absolute; left: 8px; bottom: 8px; color: var(--muted-foreground); pointer-events: none; }
+    #salon-3d-plan .salon-stage.is-realistic .salon-status { display: none; }
     #salon-3d-plan .salon-stage.is-editing canvas { cursor: grab; }
     #salon-3d-plan .salon-stage.is-dragging canvas { cursor: grabbing; }
     #salon-3d-plan .salon-loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted-foreground); }
@@ -941,7 +983,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     #salon-3d-plan .k-private { --key-color: var(--purple); }
     #salon-3d-plan .k-off { --key-color: var(--muted-foreground); }
     @media (max-width: 520px) {
-      #salon-3d-plan .salon-stage { min-height: 430px; aspect-ratio: 1 / 1.14; }
+      #salon-3d-plan .salon-stage { height: clamp(430px, 62vh, 620px); }
       #salon-3d-plan .salon-label { padding: 1px 3px; }
       #salon-3d-plan .salon-label.is-secondary { display: none !important; }
       #salon-3d-plan .salon-status { display: none; }
@@ -953,13 +995,16 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;h2&gt;3D-план салона · по разметке&lt;/h2&gt;
     &lt;div class=&quot;salon-control-stack&quot;&gt;
       &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Материалы&quot;&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-material=&quot;clean&quot; aria-pressed=&quot;true&quot;&gt;Без текстур&lt;/button&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-material=&quot;textured&quot; aria-pressed=&quot;false&quot;&gt;С материалами&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-material=&quot;clean&quot; aria-pressed=&quot;false&quot;&gt;Планировка&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-material=&quot;textured&quot; aria-pressed=&quot;true&quot;&gt;Реалистичный вид&lt;/button&gt;
       &lt;/div&gt;
       &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Ракурс&quot;&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-view=&quot;iso&quot; aria-pressed=&quot;true&quot;&gt;Общий вид&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;top&quot; aria-pressed=&quot;false&quot;&gt;Сверху&lt;/button&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;entry&quot; aria-pressed=&quot;false&quot;&gt;От входа&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;facade&quot; aria-pressed=&quot;false&quot;&gt;Фасад&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;stylists&quot; aria-pressed=&quot;false&quot;&gt;Стилисты&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;wash&quot; aria-pressed=&quot;false&quot;&gt;Мойки&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;nails&quot; aria-pressed=&quot;false&quot;&gt;Маникюр&lt;/button&gt;
       &lt;/div&gt;
       &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Перестановка мебели&quot;&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-edit aria-pressed=&quot;false&quot;&gt;Перестановка: выкл&lt;/button&gt;
@@ -983,7 +1028,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;span class=&quot;salon-key k-private&quot;&gt;тихие процедуры&lt;/span&gt;
     &lt;span class=&quot;salon-key k-off&quot;&gt;техотсек не используется&lt;/span&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;salon-dimensions text-small&quot;&gt;Сетка в режиме «Без текстур» — 1 × 1 м · стол маникюра 3,60 × 0,65 м · шкафы красок 1,80 × 0,45 м · основной проход ≥ 1,20 м · локальные рабочие проходы ≥ 0,90 м&lt;/div&gt;
+  &lt;div class=&quot;salon-dimensions text-small&quot;&gt;Сетка в режиме «Планировка» — 1 × 1 м · стол маникюра 3,60 × 0,65 м · шкафы красок 1,80 × 0,45 м · основной проход ≥ 1,20 м · локальные рабочие проходы ≥ 0,90 м&lt;/div&gt;
 
   &lt;script type=&quot;importmap&quot;&gt;
     {
@@ -996,6 +1041,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;script type=&quot;module&quot;&gt;
     import * as THREE from &#x27;three&#x27;;
     import { OrbitControls } from &#x27;three/addons/controls/OrbitControls.js&#x27;;
+    import { RoundedBoxGeometry } from &#x27;three/addons/geometries/RoundedBoxGeometry.js&#x27;;
 
     const root = document.getElementById(&#x27;salon-3d-plan&#x27;);
     const stage = root.querySelector(&#x27;.salon-stage&#x27;);
@@ -1047,14 +1093,18 @@ html&gt;body{padding:0}&lt;/style&gt;
     const sceneDark = sceneLight === palette.background ? palette.foreground : palette.background;
 
     const scene = new THREE.Scene();
-    const camera = new THREE.OrthographicCamera(-8, 8, 8, -8, 0.1, 100);
-    camera.position.set(15, 18, 25);
+    const planCamera = new THREE.OrthographicCamera(-8, 8, 8, -8, 0.1, 100);
+    const photoCamera = new THREE.PerspectiveCamera(46, 1, .08, 100);
+    let camera = planCamera;
+    planCamera.position.set(15, 18, 25);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.28;
     stage.insertBefore(renderer.domElement, labelLayer);
 
     const controls = new OrbitControls(camera, renderer.domElement);
@@ -1065,15 +1115,40 @@ html&gt;body{padding:0}&lt;/style&gt;
     controls.maxZoom = 2.3;
     controls.maxPolarAngle = Math.PI * 0.49;
 
-    scene.add(new THREE.HemisphereLight(sceneLight, palette.blue, 2.75));
-    const sun = new THREE.DirectionalLight(sceneLight, 2.45);
-    sun.position.set(-6, 18, -10);
+    scene.add(new THREE.HemisphereLight(sceneLight, mixColor(palette.blue, sceneDark, .58), 2.45));
+    const fill = new THREE.AmbientLight(sceneLight, .72);
+    scene.add(fill);
+    const sun = new THREE.DirectionalLight(sceneLight, 2.55);
+    sun.position.set(-6, 16, -9);
     sun.castShadow = true;
-    sun.shadow.mapSize.set(1024, 1024);
+    sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.camera.left = -11;
+    sun.shadow.camera.right = 11;
+    sun.shadow.camera.top = 18;
+    sun.shadow.camera.bottom = -4;
+    sun.shadow.bias = -.00035;
     scene.add(sun);
 
+    const salonGlow = new THREE.PointLight(mixColor(sceneLight, palette.purple, .10), 10, 12, 1.8);
+    salonGlow.position.set(3.6, 3.8, 6.4);
+    salonGlow.userData.realisticOnly = true;
+    scene.add(salonGlow);
+    const rearGlow = new THREE.PointLight(mixColor(sceneLight, palette.blue, .10), 8, 10, 1.8);
+    rearGlow.position.set(3.0, 3.4, 12.0);
+    rearGlow.userData.realisticOnly = true;
+    scene.add(rearGlow);
+
     function mat(color, options = {}) {
-      return new THREE.MeshStandardMaterial({ color, roughness: options.roughness ?? 0.72, metalness: options.metalness ?? 0, transparent: options.opacity !== undefined, opacity: options.opacity ?? 1, side: THREE.DoubleSide });
+      return new THREE.MeshStandardMaterial({
+        color,
+        roughness: options.roughness ?? 0.72,
+        metalness: options.metalness ?? 0,
+        transparent: options.opacity !== undefined,
+        opacity: options.opacity ?? 1,
+        emissive: options.emissive ?? 0x000000,
+        emissiveIntensity: options.emissiveIntensity ?? 0,
+        side: THREE.DoubleSide
+      });
     }
 
     function mixColor(a, b, t) {
@@ -1123,13 +1198,14 @@ html&gt;body{padding:0}&lt;/style&gt;
       return texture;
     }
 
-    const wood = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.blue, .12), mixColor(sceneDark, palette.blue, .28), 4, 10);
-    const oak = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.purple, .10), mixColor(sceneDark, palette.purple, .20), 2, 3);
+    const wood = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.blue, .24), mixColor(sceneDark, palette.blue, .42), 4, 10);
+    const oak = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.purple, .24), mixColor(sceneDark, palette.purple, .36), 2, 3);
     const tile = patternTexture(&#x27;tile&#x27;, mixColor(sceneLight, palette.blue, .10), mixColor(sceneDark, sceneLight, .65), 5, 8);
     const plaster = patternTexture(&#x27;plaster&#x27;, mixColor(sceneLight, sceneDark, .03), sceneDark, 3, 5);
     const orangePlaster = patternTexture(&#x27;plaster&#x27;, palette.orange, sceneDark, 4, 6);
     const fabric = patternTexture(&#x27;fabric&#x27;, mixColor(sceneDark, palette.blue, .34), sceneLight, 2, 2);
-    const screenFabric = patternTexture(&#x27;fabric&#x27;, mixColor(palette.blue, sceneLight, .38), mixColor(palette.purple, sceneDark, .30), 2, 3);
+    const paleFabric = patternTexture(&#x27;fabric&#x27;, mixColor(sceneLight, palette.purple, .25), mixColor(sceneDark, palette.purple, .40), 2, 2);
+    const screenFabric = patternTexture(&#x27;fabric&#x27;, mixColor(palette.blue, sceneLight, .52), mixColor(palette.purple, sceneDark, .24), 2, 3);
     const concrete = patternTexture(&#x27;plaster&#x27;, mixColor(sceneDark, sceneLight, .62), sceneDark, 3, 3);
     function textured(texture, options = {}) {
       return new THREE.MeshStandardMaterial({ map: texture, color: options.color ?? 0xffffff, roughness: options.roughness ?? .72, metalness: options.metalness ?? 0, transparent: options.opacity !== undefined, opacity: options.opacity ?? 1, side: THREE.DoubleSide });
@@ -1139,16 +1215,16 @@ html&gt;body{padding:0}&lt;/style&gt;
       outer: mat(palette.orange), wall: mat(mixColor(sceneLight, palette.blue, .05), { opacity: 0.96 }), fixed: mat(sceneDark), floor: mat(mixColor(sceneLight, palette.blue, .08)),
       public: mat(palette.yellow, { opacity: 0.34 }), service: mat(palette.blue, { opacity: 0.30 }),
       work: mat(palette.green, { opacity: 0.28 }), private: mat(palette.purple, { opacity: 0.30 }),
-      furniture: mat(mixColor(sceneLight, palette.blue, .14)), dark: mat(mixColor(sceneDark, palette.blue, .20)), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: 0.65, roughness: 0.25 }),
+      furniture: mat(mixColor(sceneLight, palette.blue, .14)), dark: mat(mixColor(sceneDark, palette.blue, .20)), upholstery: mat(mixColor(sceneLight, palette.purple, .18)), woodDark: mat(mixColor(sceneDark, palette.purple, .26)), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: 0.65, roughness: 0.25 }), brass: mat(mixColor(palette.yellow, sceneDark, .22), { metalness: .82, roughness: .20 }),
       accent: mat(mixColor(palette.purple, sceneLight, .22)), excluded: mat(mixColor(sceneDark, sceneLight, .58), { opacity: 0.5 }), screen: mat(mixColor(palette.blue, sceneLight, .34)),
-      glass: mat(palette.blue, { opacity: .24, roughness: .08 }), tv: mat(sceneDark)
+      glass: mat(palette.blue, { opacity: .24, roughness: .08 }), tv: mat(sceneDark), ceramic: mat(sceneLight, { roughness: .18 }), mirror: mat(mixColor(sceneLight, palette.blue, .30), { metalness: .88, roughness: .08 }), led: mat(sceneLight, { emissive: sceneLight, emissiveIntensity: 2.8, roughness: .16 }), plant: mat(mixColor(palette.green, sceneDark, .18), { roughness: .8 })
     };
     const texturedMaterials = {
       outer: textured(orangePlaster, { roughness: .92 }), wall: textured(plaster, { roughness: .9 }), fixed: textured(concrete, { roughness: .94 }), floor: textured(wood),
       public: textured(wood), service: textured(tile, { roughness: .82 }), work: textured(wood), private: textured(wood),
-      furniture: textured(oak, { roughness: .62 }), dark: textured(fabric, { roughness: .9 }), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: .72, roughness: .2 }),
+      furniture: textured(oak, { roughness: .62 }), dark: textured(fabric, { roughness: .9 }), upholstery: textured(paleFabric, { roughness: .92 }), woodDark: textured(oak, { color: mixColor(sceneDark, palette.purple, .35), roughness: .58 }), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: .72, roughness: .2 }), brass: mat(mixColor(palette.yellow, sceneDark, .22), { metalness: .85, roughness: .18 }),
       accent: textured(tile, { roughness: .52 }), excluded: textured(concrete, { roughness: .95 }), screen: textured(screenFabric, { roughness: .82 }),
-      glass: mat(palette.blue, { opacity: .18, roughness: .05 }), tv: mat(sceneDark, { roughness: .18 })
+      glass: new THREE.MeshPhysicalMaterial({ color: mixColor(sceneLight, palette.blue, .18), transparent: true, opacity: .30, roughness: .04, metalness: .05, transmission: .56, thickness: .06, side: THREE.DoubleSide }), tv: mat(sceneDark, { roughness: .12 }), ceramic: mat(sceneLight, { roughness: .12, metalness: .02 }), mirror: new THREE.MeshPhysicalMaterial({ color: mixColor(sceneLight, palette.blue, .16), metalness: .94, roughness: .035, clearcoat: 1, clearcoatRoughness: .04, side: THREE.DoubleSide }), led: mat(sceneLight, { emissive: sceneLight, emissiveIntensity: 4.2, roughness: .08 }), plant: mat(mixColor(palette.green, sceneDark, .12), { roughness: .88 })
     };
     const materialKeys = new Map(Object.entries(materials).map(([key, value]) =&gt; [value, key]));
     function trackMaterial(mesh, material) {
@@ -1173,19 +1249,62 @@ html&gt;body{padding:0}&lt;/style&gt;
       parent.add(mesh);
       return trackMaterial(mesh, material);
     }
+    function roundedBox(x, z, w, d, h, material, y = h / 2, parent = scene, radius = .08) {
+      const safeRadius = Math.min(radius, w / 2 - .005, d / 2 - .005, h / 2 - .005);
+      const mesh = new THREE.Mesh(new RoundedBoxGeometry(w, h, d, 4, Math.max(.005, safeRadius)), material);
+      mesh.position.set(x, y, z);
+      mesh.castShadow = true;
+      mesh.receiveShadow = true;
+      parent.add(mesh);
+      return trackMaterial(mesh, material);
+    }
+    function sphere(x, z, radius, material, y = radius, parent = scene, scale = [1, 1, 1]) {
+      const mesh = new THREE.Mesh(new THREE.SphereGeometry(radius, 24, 16), material);
+      mesh.position.set(x, y, z);
+      mesh.scale.set(...scale);
+      mesh.castShadow = true;
+      mesh.receiveShadow = true;
+      parent.add(mesh);
+      return trackMaterial(mesh, material);
+    }
+    function torus(x, z, radius, tube, material, y, parent = scene, rotationX = Math.PI / 2) {
+      const mesh = new THREE.Mesh(new THREE.TorusGeometry(radius, tube, 12, 36), material);
+      mesh.position.set(x, y, z);
+      mesh.rotation.x = rotationX;
+      mesh.castShadow = true;
+      parent.add(mesh);
+      return trackMaterial(mesh, material);
+    }
     function wall(x1, z1, x2, z2, height = 1.25, material = materials.wall) {
       const length = Math.hypot(x2 - x1, z2 - z1);
       const mesh = box((x1 + x2) / 2, (z1 + z2) / 2, length, 0.12, height, material);
       mesh.rotation.y = -Math.atan2(z2 - z1, x2 - x1);
       return mesh;
     }
-    function wallFace(x1, z1, x2, z2, height = 1.40) {
+    function wallFace(x1, z1, x2, z2, height = 1.45) {
       const length = Math.hypot(x2 - x1, z2 - z1);
       const mesh = box((x1 + x2) / 2, (z1 + z2) / 2, length, .025, height, materials.wall);
       mesh.rotation.y = -Math.atan2(z2 - z1, x2 - x1);
       return mesh;
     }
-    function zone(x, z, w, d, material) { return box(x, z, w, d, 0.035, material, 0.018); }
+    function facadeSkin(x1, z1, x2, z2, height = 1.36) {
+      const length = Math.hypot(x2 - x1, z2 - z1);
+      const mesh = box((x1 + x2) / 2, (z1 + z2) / 2, length, .025, height, materials.outer, height / 2);
+      mesh.rotation.y = -Math.atan2(z2 - z1, x2 - x1);
+      return mesh;
+    }
+    const layoutOnly = [];
+    function zone(x, z, w, d, material) {
+      const mesh = box(x, z, w, d, 0.035, material, 0.018);
+      mesh.userData.layoutOnly = true;
+      layoutOnly.push(mesh);
+      return mesh;
+    }
+    function finishPatch(x, z, w, d, material, radius = .04) {
+      const mesh = roundedBox(x, z, w, d, .025, material, .014, scene, radius);
+      mesh.userData.realisticOnly = true;
+      return mesh;
+    }
     function groupAt(x, z, rotation = 0) {
       const group = new THREE.Group();
       group.position.set(x, 0, z);
@@ -1204,58 +1323,87 @@ html&gt;body{padding:0}&lt;/style&gt;
       movableObjects.push(group);
       return group;
     }
-    function chair(x, z, rotation = 0, material = materials.furniture, movable = true) {
+    function chair(x, z, rotation = 0, material = materials.furniture, movable = true, style = &#x27;salon&#x27;) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, 0.56, 0.56, 0.13, material, 0.48, g);
-      box(0, 0.24, 0.56, 0.11, 0.72, material, 0.78, g);
-      cylinder(0, 0, 0.08, 0.42, materials.metal, 0.23, g);
-      cylinder(0, 0, 0.32, 0.05, materials.metal, 0.03, g);
+      const upholstery = style === &#x27;lounge&#x27; ? materials.upholstery : material;
+      roundedBox(0, -.01, style === &#x27;lounge&#x27; ? .64 : .58, style === &#x27;lounge&#x27; ? .64 : .58, .16, upholstery, .50, g, .08);
+      const back = roundedBox(0, .25, style === &#x27;lounge&#x27; ? .64 : .58, .15, style === &#x27;lounge&#x27; ? .68 : .78, upholstery, .86, g, .07);
+      back.rotation.x = -.10;
+      if (style === &#x27;lounge&#x27;) {
+        roundedBox(-.33, -.01, .11, .62, .39, upholstery, .58, g, .05);
+        roundedBox(.33, -.01, .11, .62, .39, upholstery, .58, g, .05);
+      } else {
+        roundedBox(-.34, -.02, .07, .52, .10, materials.metal, .66, g, .025);
+        roundedBox(.34, -.02, .07, .52, .10, materials.metal, .66, g, .025);
+      }
+      cylinder(0, 0, 0.065, 0.42, materials.metal, 0.24, g, 22);
+      cylinder(0, 0, style === &#x27;lounge&#x27; ? 0.30 : 0.32, 0.045, materials.metal, 0.03, g, 32);
       return movable ? makeMovable(g, &#x27;Кресло&#x27;) : g;
     }
     function table(x, z, w, d, rotation = 0) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, w, d, 0.09, materials.furniture, 0.76, g);
+      roundedBox(0, 0, w, d, 0.085, materials.furniture, 0.76, g, .035);
       for (const sx of [-1, 1]) for (const sz of [-1, 1]) box(sx * (w / 2 - 0.08), sz * (d / 2 - 0.08), 0.07, 0.07, 0.72, materials.metal, 0.36, g);
       return makeMovable(g, &#x27;Стол&#x27;);
     }
     function sofa(x, z, rotation = 0) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, 1.75, 0.66, 0.28, materials.furniture, 0.35, g);
-      box(0, 0.29, 1.75, 0.14, 0.72, materials.furniture, 0.65, g);
-      box(-0.89, 0, 0.14, 0.68, 0.52, materials.furniture, 0.47, g);
-      box(0.89, 0, 0.14, 0.68, 0.52, materials.furniture, 0.47, g);
+      roundedBox(0, 0, 1.75, 0.66, 0.26, materials.upholstery, 0.35, g, .10);
+      roundedBox(0, 0.29, 1.72, 0.14, 0.70, materials.upholstery, 0.65, g, .07);
+      roundedBox(-0.88, 0, 0.14, 0.68, 0.50, materials.upholstery, 0.47, g, .06);
+      roundedBox(0.88, 0, 0.14, 0.68, 0.50, materials.upholstery, 0.47, g, .06);
+      roundedBox(-.43, -.015, .78, .54, .11, materials.furniture, .50, g, .045);
+      roundedBox(.43, -.015, .78, .54, .11, materials.furniture, .50, g, .045);
+      for (const sx of [-.68, .68]) for (const sz of [-.22, .22]) cylinder(sx, sz, .025, .20, materials.brass, .10, g, 14);
       return makeMovable(g, &#x27;Диван&#x27;);
     }
     function washUnit(x, z, rotation = 0) {
       const g = chair(x, z, rotation, materials.dark, false);
-      box(0, .76, .48, .44, .62, materials.furniture, .34, g);
-      cylinder(0, .77, .38, .22, materials.accent, .78, g, 32);
-      cylinder(0, .77, .25, .045, materials.dark, .91, g, 32);
-      box(0, .48, .24, .24, .10, materials.accent, .94, g);
+      roundedBox(0, .75, .52, .46, .60, materials.woodDark, .34, g, .08);
+      const bowl = cylinder(0, .78, .39, .19, materials.ceramic, .82, g, 40);
+      bowl.scale.z = .78;
+      const hollow = cylinder(0, .78, .28, .035, materials.dark, .925, g, 40);
+      hollow.scale.z = .76;
+      torus(0, .78, .34, .035, materials.ceramic, .925, g);
+      roundedBox(0, .47, .25, .22, .10, materials.dark, .94, g, .04);
+      torus(.23, .80, .055, .014, materials.metal, 1.00, g, 0);
+      cylinder(-.23, .82, .022, .14, materials.metal, .98, g, 14);
       return makeMovable(g, &#x27;Мойка для волос&#x27;);
     }
     function pedicureUnit(x, z, rotation = 0) {
       const g = groupAt(x, z, rotation);
-      box(0, .12, .72, 1.00, .22, materials.furniture, .58, g);
-      const back = box(0, .50, .72, .18, .98, materials.furniture, 1.05, g);
-      back.rotation.x = -0.18;
-      const legRest = box(0, -.62, .58, .52, .17, materials.furniture, .50, g);
+      roundedBox(0, .12, .76, 1.06, .24, materials.upholstery, .59, g, .10);
+      const back = roundedBox(0, .52, .76, .20, 1.08, materials.upholstery, 1.08, g, .09);
+      back.rotation.x = -0.20;
+      roundedBox(-.43, .10, .10, .90, .35, materials.upholstery, .72, g, .04);
+      roundedBox(.43, .10, .10, .90, .35, materials.upholstery, .72, g, .04);
+      const legRest = roundedBox(0, -.66, .62, .60, .18, materials.upholstery, .50, g, .07);
       legRest.rotation.x = -.08;
-      cylinder(0, -1.15, 0.33, 0.20, materials.accent, 0.13, g);
+      const basin = cylinder(0, -1.18, 0.36, 0.22, materials.ceramic, 0.14, g, 36);
+      basin.scale.z = .88;
+      const water = cylinder(0, -1.18, 0.29, 0.025, materials.glass, 0.265, g, 36);
+      water.scale.z = .86;
+      torus(0, -1.18, .33, .028, materials.metal, .27, g);
       cylinder(0, 0.05, 0.10, 0.47, materials.metal, 0.28, g);
       return makeMovable(g, &#x27;Педикюрное кресло&#x27;);
     }
     function cabinet(x, z, w, d, h, rotation = 0) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, w, d, h, materials.furniture, h / 2, g);
+      roundedBox(0, 0, w, d, h, materials.furniture, h / 2, g, .035);
+      const doors = Math.max(1, Math.round(w / .55));
+      for (let i = 0; i &lt; doors; i++) {
+        const px = -w / 2 + (i + .5) * (w / doors);
+        box(px, -d / 2 - .008, w / doors - .035, .018, h - .06, materials.woodDark, h / 2, g);
+        cylinder(px + w / doors * .32, -d / 2 - .025, .012, .09, materials.brass, h * .54, g, 12).rotation.x = Math.PI / 2;
+      }
       return makeMovable(g, &#x27;Шкаф&#x27;);
     }
     function screen(x1, z1, x2, z2) {
       const g = groupAt((x1 + x2) / 2, (z1 + z2) / 2, -Math.atan2(z2 - z1, x2 - x1));
       const length = Math.hypot(x2 - x1, z2 - z1);
-      for (let x = -length / 2; x &lt;= length / 2; x += .16) box(x, 0, .055, .10, 1.85, materials.screen, .93, g);
-      box(0, 0, length, .11, .09, materials.screen, .07, g);
-      box(0, 0, length, .11, .09, materials.screen, 1.82, g);
+      for (let x = -length / 2; x &lt;= length / 2; x += .17) roundedBox(x, 0, .05, .095, 1.82, materials.screen, .93, g, .018);
+      roundedBox(0, 0, length, .11, .08, materials.woodDark, .07, g, .025);
+      roundedBox(0, 0, length, .11, .08, materials.woodDark, 1.82, g, .025);
       return makeMovable(g, &#x27;Ширма&#x27;);
     }
     function brandTexture(text, textColor) {
@@ -1284,7 +1432,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     function solidPartition(x1, z1, x2, z2) {
       const g = groupAt((x1 + x2) / 2, (z1 + z2) / 2, -Math.atan2(z2 - z1, x2 - x1));
       const length = Math.hypot(x2 - x1, z2 - z1);
-      box(0, 0, length, .13, 1.85, materials.screen, .93, g);
+      roundedBox(0, 0, length, .13, 1.85, materials.screen, .93, g, .025);
       box(0, 0, length, .15, .07, materials.dark, .055, g);
       box(0, 0, length, .15, .07, materials.dark, 1.81, g);
       brandPanel(g, &#x27;БРАШ&#x27;, 0, 1.24, -.071, Math.min(1.46, length * .78), .46, Math.PI, sceneDark);
@@ -1321,20 +1469,22 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
     function roundTable(x, z, radius, h = .42) {
       const g = groupAt(x, z);
-      cylinder(0, 0, radius, h, materials.furniture, h / 2, g);
+      cylinder(0, 0, radius, .065, materials.furniture, h, g, 36);
+      cylinder(0, 0, .045, h - .04, materials.brass, h / 2, g, 18);
+      cylinder(0, 0, radius * .58, .035, materials.metal, .02, g, 32);
       return makeMovable(g, &#x27;Круглый столик&#x27;);
     }
     function furnitureBox(x, z, w, d, h, type, rotation = 0) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, w, d, h, materials.furniture, h / 2, g);
+      roundedBox(0, 0, w, d, h, materials.furniture, h / 2, g, .045);
       return makeMovable(g, type);
     }
     function barStool(x, z, rotation = 0) {
       const g = groupAt(x, z, rotation);
       cylinder(0, 0, .27, .05, materials.metal, .025, g);
       cylinder(0, 0, .045, .72, materials.metal, .38, g, 18);
-      cylinder(0, 0, .25, .10, materials.dark, .77, g);
-      box(0, .21, .46, .08, .40, materials.dark, .94, g);
+      cylinder(0, 0, .25, .10, materials.upholstery, .77, g, 32);
+      roundedBox(0, .21, .46, .08, .40, materials.upholstery, .94, g, .035);
       box(-.18, .16, .035, .035, .34, materials.metal, .80, g);
       box(.18, .16, .035, .035, .34, materials.metal, .80, g);
       return makeMovable(g, &#x27;Барное кресло&#x27;);
@@ -1352,7 +1502,10 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
     function wallPanel(x, z, w, h, rotation, material = materials.tv, y = 1.55) {
       const g = groupAt(x, z, rotation);
-      box(0, 0, w, .045, h, material, y, g);
+      roundedBox(0, 0, w + .06, .055, h + .06, materials.metal, y, g, .025);
+      box(0, -.035, w, .025, h, material, y, g);
+      const glow = box(0, .012, w * .86, .008, h * .04, materials.led, y - h * .42, g);
+      glow.userData.realisticOnly = true;
       return g;
     }
     function faucet(x, z, rotation = 0) {
@@ -1361,6 +1514,37 @@ html&gt;body{padding:0}&lt;/style&gt;
       const spout = box(0, -.12, .07, .26, .05, materials.metal, .54, g);
       spout.rotation.x = .05;
       return g;
+    }
+
+    function bottle(parent, x, z, y, height = .18, material = materials.accent) {
+      cylinder(x, z, .035, height, material, y + height / 2, parent, 18);
+      cylinder(x, z, .018, .035, materials.metal, y + height + .018, parent, 12);
+    }
+    function plant(x, z, scale = 1) {
+      const g = groupAt(x, z);
+      cylinder(0, 0, .18 * scale, .28 * scale, materials.ceramic, .14 * scale, g, 28);
+      cylinder(0, 0, .025 * scale, .45 * scale, materials.woodDark, .42 * scale, g, 12);
+      for (const [dx, dz, y, ry] of [[-.11,0,.58,-.45],[.11,.02,.66,.48],[-.07,.05,.78,-.34],[.08,-.02,.86,.38]]) {
+        const leaf = sphere(dx * scale, dz * scale, .13 * scale, materials.plant, y * scale, g, [1, .35, .62]);
+        leaf.rotation.z = ry;
+      }
+      return g;
+    }
+    function stylistStation(x, z, shelfSide) {
+      const g = groupAt(x, z);
+      roundedBox(0, 0, .07, .82, 1.16, materials.woodDark, 1.43, g, .025);
+      box(shelfSide * .043, 0, .024, .68, .98, materials.mirror, 1.45, g);
+      for (const edge of [-.38, .38]) roundedBox(shelfSide * .061, edge, .025, .035, 1.05, materials.led, 1.44, g, .01);
+      roundedBox(shelfSide * .30, 0, .50, .70, .075, materials.furniture, .77, g, .03);
+      roundedBox(shelfSide * .16, 0, .22, .58, .17, materials.woodDark, .66, g, .025);
+      bottle(g, shelfSide * .32, -.18, .82, .17);
+      bottle(g, shelfSide * .33, .04, .82, .13, materials.ceramic);
+      bottle(g, shelfSide * .32, .22, .82, .20, materials.brass);
+      const mirrorLight = new THREE.PointLight(sceneLight, 2.5, 2.2, 2);
+      mirrorLight.position.set(shelfSide * .28, 1.45, 0);
+      mirrorLight.userData.realisticOnly = true;
+      g.add(mirrorLight);
+      return makeMovable(g, &#x27;Зеркало и столик стилиста&#x27;);
     }
 
     box(3.34, 6.95, 6.68, 13.90, .18, materials.floor, -.09);
@@ -1376,18 +1560,28 @@ html&gt;body{padding:0}&lt;/style&gt;
     zone(-.95, 11.00, 1.90, 3.20, materials.private);
     zone(1.80, 14.14, 3.60, 3.07, materials.service);
     zone(-.95, 14.14, 1.90, 3.07, materials.excluded);
+    finishPatch(1.10, 5.00, 2.16, 2.50, materials.service);
+    finishPatch(.975, 7.80, 1.91, 2.76, materials.service);
+    finishPatch(-.95, 11.00, 1.86, 3.14, materials.service);
+    finishPatch(1.80, 14.14, 3.54, 3.01, materials.service);
+    finishPatch(5.76, 5.55, 1.58, 2.66, materials.upholstery, .12);
 
-    wall(0, 0, 1.05, 0, 1.45, materials.outer);
+    wall(0, 0, 1.05, 0, 1.45, materials.wall);
     frontWindow(2.05, 4.15, 0, 1.45);
-    wall(4.15, 0, 6.68, 0, 1.45, materials.outer);
-    wall(6.68, 0, 6.68, 13.90, 1.45, materials.outer);
-    wall(3.60, 13.90, 4.10, 13.90, 1.45, materials.outer);
-    wall(6.15, 13.90, 6.68, 13.90, 1.45, materials.outer);
-    wall(3.60, 13.90, 3.60, 15.67, 1.45, materials.outer);
-    wall(-1.90, 15.67, 3.60, 15.67, 1.45, materials.outer);
-    wall(-1.90, 9.40, -1.90, 15.67, 1.45, materials.outer);
-    wall(-1.90, 9.40, 0, 9.40, 1.45, materials.outer);
-    wall(0, 0, 0, 9.40, 1.45, materials.outer);
+    wall(4.15, 0, 6.68, 0, 1.45, materials.wall);
+    wall(6.68, 0, 6.68, 13.90, 1.45, materials.wall);
+    wall(3.60, 13.90, 4.10, 13.90, 1.45, materials.wall);
+    wall(6.15, 13.90, 6.68, 13.90, 1.45, materials.wall);
+    wall(3.60, 13.90, 3.60, 15.67, 1.45, materials.wall);
+    wall(-1.90, 15.67, 3.60, 15.67, 1.45, materials.wall);
+    wall(-1.90, 9.40, -1.90, 15.67, 1.45, materials.wall);
+    wall(-1.90, 9.40, 0, 9.40, 1.45, materials.wall);
+    wall(0, 0, 0, 9.40, 1.45, materials.wall);
+    facadeSkin(0, -.073, 1.05, -.073);
+    facadeSkin(4.15, -.073, 6.68, -.073);
+    facadeSkin(6.753, 0, 6.753, 13.90);
+    facadeSkin(-1.90, 15.743, 3.60, 15.743);
+    facadeSkin(-1.973, 9.40, -1.973, 15.67);
     wall(4.10, 13.90, 6.15, 13.90, 2.35, materials.glass);
     entranceDoor();
     facadeSign();
@@ -1418,8 +1612,10 @@ html&gt;body{padding:0}&lt;/style&gt;
     solidPartition(.11, 3.48, 2.01, 3.48);
 
     const reception = groupAt(1.00, 1.70);
-    box(0, 0, 1.80, .65, 1.05, materials.dark, .525, reception);
-    box(.83, .26, .18, .95, 1.05, materials.dark, .525, reception);
+    roundedBox(0, 0, 1.80, .65, 1.05, materials.woodDark, .525, reception, .07);
+    roundedBox(.83, .26, .18, .95, 1.05, materials.woodDark, .525, reception, .05);
+    box(-.03, -.334, 1.52, .025, .72, materials.accent, .51, reception);
+    roundedBox(-.03, -.37, 1.12, .028, .24, materials.led, .57, reception, .01).userData.realisticOnly = true;
     laptop(reception, .14, -.02, Math.PI);
     makeMovable(reception, &#x27;Стойка ресепшн&#x27;);
     barStool(1.05, 2.48, 0);
@@ -1428,27 +1624,24 @@ html&gt;body{padding:0}&lt;/style&gt;
     for (const z of [1.50, 2.80]) {
       chair(3.80, z, -Math.PI / 2, materials.dark);
       chair(5.65, z, Math.PI / 2, materials.dark);
-      const leftStation = groupAt(4.62, z);
-      box(0, 0, .055, .78, 1.10, materials.metal, 1.42, leftStation);
-      box(-.27, 0, .46, .74, .07, materials.furniture, .76, leftStation);
-      makeMovable(leftStation, &#x27;Зеркало и столик стилиста&#x27;);
-      const rightStation = groupAt(4.68, z);
-      box(0, 0, .055, .78, 1.10, materials.metal, 1.42, rightStation);
-      box(.27, 0, .46, .74, .07, materials.furniture, .76, rightStation);
-      makeMovable(rightStation, &#x27;Зеркало и столик стилиста&#x27;);
+      stylistStation(4.62, z, -1);
+      stylistStation(4.68, z, 1);
     }
     wallPanel(6.63, 2.05, 1.45, .82, Math.PI / 2, materials.tv, 1.60);
 
     washUnit(1.80, 4.35, -Math.PI / 2);
     washUnit(1.80, 5.65, -Math.PI / 2);
-    box(.31, 5.02, .55, 2.55, .90, materials.furniture, .45);
-    cylinder(.31, 5.02, .24, .08, materials.metal, .94);
+    roundedBox(.31, 5.02, .55, 2.55, .90, materials.furniture, .45, scene, .04);
+    const utilitySink = cylinder(.31, 5.02, .24, .08, materials.ceramic, .94, scene, 32);
+    utilitySink.scale.z = .78;
     faucet(.31, 5.02, -Math.PI / 2);
-    box(.25, 4.44, .34, .86, .72, materials.furniture, 1.64);
-    box(.25, 5.61, .34, .86, .72, materials.furniture, 1.64);
+    roundedBox(.25, 4.44, .34, .86, .72, materials.furniture, 1.64, scene, .035);
+    roundedBox(.25, 5.61, .34, .86, .72, materials.furniture, 1.64, scene, .035);
+    for (const z of [4.18, 4.48, 4.78, 5.31, 5.61, 5.91]) bottle(scene, .31, z, .93, .16 + ((z * 10) % 3) * .025);
 
     cabinet(3.08, 6.40, .45, 1.80, 1.95);
     cabinet(3.72, 6.40, .45, 1.80, 1.95);
+    for (const x of [3.08, 3.72]) for (const z of [5.94, 6.24, 6.54, 6.84]) bottle(scene, x - .23, z, .92, .20, z % .6 &gt; .2 ? materials.accent : materials.brass);
 
     box(.50, 7.25, .46, .72, .43, materials.furniture, .23);
     cylinder(.50, 6.98, .25, .32, materials.furniture, .48);
@@ -1457,12 +1650,15 @@ html&gt;body{padding:0}&lt;/style&gt;
 
     sofa(6.25, 5.35, Math.PI / 2);
     roundTable(5.45, 5.55, .33);
-    chair(5.25, 4.60, Math.PI, materials.dark);
-    chair(5.25, 6.50, 0, materials.dark);
+    chair(5.25, 4.60, Math.PI, materials.dark, true, &#x27;lounge&#x27;);
+    chair(5.25, 6.50, 0, materials.dark, true, &#x27;lounge&#x27;);
+    plant(6.28, 6.78, .72);
 
     furnitureBox(6.37, 8.28, .48, 1.35, .78, &#x27;Стол бровиста&#x27;);
     chair(5.45, 8.28, -Math.PI / 2, materials.dark);
-    wallPanel(6.63, 8.28, 1.05, .90, Math.PI / 2, materials.metal, 1.45);
+    wallPanel(6.63, 8.28, 1.05, .90, Math.PI / 2, materials.mirror, 1.45);
+    bottle(scene, 6.15, 7.95, .81, .15);
+    bottle(scene, 6.15, 8.22, .81, .18, materials.brass);
 
     pedicureUnit(-.75, 10.35, -Math.PI / 2);
     pedicureUnit(-.75, 11.70, -Math.PI / 2);
@@ -1474,7 +1670,9 @@ html&gt;body{padding:0}&lt;/style&gt;
     for (const z of [10.18, 11.30, 12.42]) {
       chair(6.12, z, Math.PI / 2, materials.dark);
       chair(4.86, z, -Math.PI / 2, materials.furniture);
-      box(0, z - 11.30, .20, .16, .20, materials.accent, .92, manicureTable);
+      roundedBox(0, z - 11.30, .20, .16, .20, materials.accent, .92, manicureTable, .035);
+      bottle(manicureTable, -.18, z - 11.30 - .18, .82, .12, materials.brass);
+      bottle(manicureTable, .18, z - 11.30 + .18, .82, .10, materials.ceramic);
     }
     wallPanel(6.63, 11.32, 1.55, .86, Math.PI / 2, materials.tv, 1.62);
 
@@ -1485,8 +1683,9 @@ html&gt;body{padding:0}&lt;/style&gt;
     cylinder(-1.08, 14.20, .38, 1.55, materials.metal, .78);
     cabinet(-1.68, 15.10, .34, .90, 1.25);
 
-    box(5.12, 13.55, 1.50, .38, .78, materials.furniture, .39);
+    roundedBox(5.12, 13.55, 1.50, .38, .78, materials.furniture, .39, scene, .05);
     cylinder(5.72, 13.28, .24, .62, materials.accent, .31);
+    plant(4.28, 13.37, .78);
     box(1.55, .04, 1.00, .16, .08, materials.accent, .08);
 
     const grid = new THREE.GridHelper(18, 18, palette.border, palette.border);
@@ -1519,20 +1718,37 @@ html&gt;body{padding:0}&lt;/style&gt;
     addLabel(&#x27;Бывшая дверь заделана&#x27;, .12, 1.62, 1.32, &#x27; is-secondary&#x27;);
 
     const views = {
-      iso: { position: new THREE.Vector3(15, 18, 25), target: new THREE.Vector3(2.35, .55, 7.80), up: new THREE.Vector3(0, 1, 0), zoom: 1.05 },
-      top: { position: new THREE.Vector3(2.351, 30, 7.801), target: new THREE.Vector3(2.35, 0, 7.80), up: new THREE.Vector3(0, 0, -1), zoom: .94 },
-      entry: { position: new THREE.Vector3(2.35, 7.8, -16), target: new THREE.Vector3(2.35, .85, 5.80), up: new THREE.Vector3(0, 1, 0), zoom: 1.02 }
+      iso: { projection: &#x27;plan&#x27;, position: new THREE.Vector3(15, 18, 25), target: new THREE.Vector3(2.35, .55, 7.80), up: new THREE.Vector3(0, 1, 0), zoom: 1.05 },
+      top: { projection: &#x27;plan&#x27;, position: new THREE.Vector3(2.351, 30, 7.801), target: new THREE.Vector3(2.35, 0, 7.80), up: new THREE.Vector3(0, 0, -1), zoom: .94 },
+      facade: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.25, 1.72, -4.5), target: new THREE.Vector3(2.30, .92, .86), up: new THREE.Vector3(0, 1, 0), fov: 42 },
+      stylists: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(1.42, 2.42, 4.62), target: new THREE.Vector3(4.65, .98, 2.12), up: new THREE.Vector3(0, 1, 0), fov: 53 },
+      wash: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.86, 2.70, 6.78), target: new THREE.Vector3(1.48, .78, 5.02), up: new THREE.Vector3(0, 1, 0), fov: 57 },
+      nails: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.72, 2.32, 13.08), target: new THREE.Vector3(5.30, .88, 11.18), up: new THREE.Vector3(0, 1, 0), fov: 52 }
     };
-    camera.zoom = views.iso.zoom;
-    camera.updateProjectionMatrix();
-    let goal = views.iso;
+    let activeView = &#x27;iso&#x27;;
+    let goal = views[activeView];
     let moving = false;
     let viewportFactor = 1;
+    function applyView(name) {
+      activeView = name;
+      goal = views[name];
+      camera = goal.projection === &#x27;photo&#x27; ? photoCamera : planCamera;
+      camera.position.copy(goal.position);
+      camera.up.copy(goal.up);
+      if (camera === planCamera) camera.zoom = goal.zoom * viewportFactor;
+      else camera.fov = goal.fov;
+      camera.updateProjectionMatrix();
+      controls.object = camera;
+      controls.target.copy(goal.target);
+      controls.enablePan = camera === planCamera;
+      controls.minDistance = .7;
+      controls.maxDistance = 36;
+      controls.update();
+      moving = false;
+    }
     root.querySelectorAll(&#x27;[data-view]&#x27;).forEach(button =&gt; {
       button.addEventListener(&#x27;click&#x27;, () =&gt; {
-        goal = views[button.dataset.view];
-        moving = true;
-        controls.enabled = false;
+        applyView(button.dataset.view);
         root.querySelectorAll(&#x27;[data-view]&#x27;).forEach(candidate =&gt; {
           const active = candidate === button;
           candidate.setAttribute(&#x27;aria-pressed&#x27;, String(active));
@@ -1540,15 +1756,22 @@ html&gt;body{padding:0}&lt;/style&gt;
         });
       });
     });
+    function applyMaterialMode(texturedMode) {
+      scene.traverse(object =&gt; {
+        if (object.isMesh &amp;&amp; object.userData.materialKey) {
+          object.material = texturedMode ? texturedMaterials[object.userData.materialKey] : materials[object.userData.materialKey];
+        }
+        if (object.userData.realisticOnly) object.visible = texturedMode;
+        if (object.userData.layoutOnly) object.visible = !texturedMode;
+      });
+      grid.visible = !texturedMode;
+      stage.classList.toggle(&#x27;is-realistic&#x27;, texturedMode);
+      renderer.toneMappingExposure = texturedMode ? 1.16 : 1.04;
+    }
     root.querySelectorAll(&#x27;[data-material]&#x27;).forEach(button =&gt; {
       button.addEventListener(&#x27;click&#x27;, () =&gt; {
         const texturedMode = button.dataset.material === &#x27;textured&#x27;;
-        scene.traverse(object =&gt; {
-          if (object.isMesh &amp;&amp; object.userData.materialKey) {
-            object.material = texturedMode ? texturedMaterials[object.userData.materialKey] : materials[object.userData.materialKey];
-          }
-        });
-        grid.visible = !texturedMode;
+        applyMaterialMode(texturedMode);
         root.querySelectorAll(&#x27;[data-material]&#x27;).forEach(candidate =&gt; {
           const active = candidate === button;
           candidate.setAttribute(&#x27;aria-pressed&#x27;, String(active));
@@ -1556,6 +1779,8 @@ html&gt;body{padding:0}&lt;/style&gt;
         });
       });
     });
+    applyMaterialMode(true);
+    applyView(&#x27;iso&#x27;);
 
     const editButton = root.querySelector(&#x27;[data-edit]&#x27;);
     const deleteButton = root.querySelector(&#x27;[data-delete]&#x27;);
@@ -1804,12 +2029,14 @@ html&gt;body{padding:0}&lt;/style&gt;
       const aspect = width / height;
       const span = 16.5;
       viewportFactor = width &lt; 520 ? 1.12 : 1;
-      camera.left = -span * aspect / 2;
-      camera.right = span * aspect / 2;
-      camera.top = span / 2;
-      camera.bottom = -span / 2;
-      if (!moving) camera.zoom = goal.zoom * viewportFactor;
-      camera.updateProjectionMatrix();
+      planCamera.left = -span * aspect / 2;
+      planCamera.right = span * aspect / 2;
+      planCamera.top = span / 2;
+      planCamera.bottom = -span / 2;
+      if (camera === planCamera) planCamera.zoom = goal.zoom * viewportFactor;
+      planCamera.updateProjectionMatrix();
+      photoCamera.aspect = aspect;
+      photoCamera.updateProjectionMatrix();
       renderer.setSize(width, height, false);
     }
     new ResizeObserver(resize).observe(stage);
@@ -1827,23 +2054,6 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
     function animate() {
       requestAnimationFrame(animate);
-      if (moving) {
-        camera.position.lerp(goal.position, 0.09);
-        camera.up.lerp(goal.up, 0.09).normalize();
-        controls.target.lerp(goal.target, 0.09);
-        const desiredZoom = goal.zoom * viewportFactor;
-        camera.zoom += (desiredZoom - camera.zoom) * 0.09;
-        camera.updateProjectionMatrix();
-        if (camera.position.distanceTo(goal.position) &lt; 0.03 &amp;&amp; controls.target.distanceTo(goal.target) &lt; 0.03) {
-          camera.position.copy(goal.position);
-          camera.up.copy(goal.up);
-          controls.target.copy(goal.target);
-          camera.zoom = desiredZoom;
-          camera.updateProjectionMatrix();
-          moving = false;
-          controls.enabled = true;
-        }
-      }
       controls.update();
       updateLabels();
       renderer.render(scene, camera);
@@ -2095,5 +2305,18 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 "></iframe>
+</section>
+<section class="gallery" aria-labelledby="gallery-title">
+  <h2 id="gallery-title">Точные ракурсы из модели</h2>
+  <p class="gallery-intro">Это не отдельно придуманные изображения: каждый кадр снят непосредственно из интерактивной сцены и сохраняет текущую расстановку.</p>
+  <div class="gallery-grid">
+    <figure><a href="render-facade.jpg" download><img src="render-facade.jpg" alt="Фасад салона БРАШ с панорамным окном, перпендикулярной вывеской и открытой дверью"><figcaption><span>Фасад и единственный вход</span><span>Скачать</span></figcaption></a></figure>
+    <figure><a href="render-stylists.jpg" download><img src="render-stylists.jpg" alt="Четыре рабочих места стилистов с отдельными зеркалами и подсветкой"><figcaption><span>Рабочие места стилистов</span><span>Скачать</span></figcaption></a></figure>
+    <figure><a href="render-wash.jpg" download><img src="render-wash.jpg" alt="Две профессиональные мойки для волос и гарнитур с раковиной"><figcaption><span>Мойки и рабочая раковина</span><span>Скачать</span></figcaption></a></figure>
+    <figure><a href="render-nails.jpg" download><img src="render-nails.jpg" alt="Длинный маникюрный стол на три места, кресла и телевизор"><figcaption><span>Маникюрная зона</span><span>Скачать</span></figcaption></a></figure>
+  </div>
+  <p class="site-note">Визуализация предназначена для проверки компоновки и габаритов. Перед ремонтом размеры инженерных выводов и проходов стоит подтвердить обмером на месте.</p>
+</section>
+</main>
 </body>
 </html>
