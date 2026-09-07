@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src 'self' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<meta name="description" content="Интерактивная 3D-модель салона красоты БРАШ в помещении Альпы с точной расстановкой мебели и оборудования.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="Лёгкая интерактивная 3D-планировка салона БРАШ в помещении Альпы с точной расстановкой мебели и оборудования.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:title" content="БРАШ · 3D-план салона">
-<meta property="og:description" content="Интерактивная планировка и точные интерьерные ракурсы салона БРАШ.">
+<meta property="og:description" content="Интерактивная планировка салона с приближениями для каждой рабочей зоны.">
 <meta property="og:url" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/">
 <meta property="og:image" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="БРАШ · 3D-план салона">
-<meta name="twitter:description" content="Интерактивная планировка и точные интерьерные ракурсы салона БРАШ.">
+<meta name="twitter:description" content="Интерактивная планировка салона с приближениями для каждой рабочей зоны.">
 <meta name="twitter:image" content="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/og.png">
 <link rel="canonical" href="https://ekaterina-sokolova-stylist.github.io/brush-salon/alps/3d-room/">
 <title>БРАШ · 3D-план салона</title>
@@ -24,31 +24,18 @@
   html, body { margin: 0; }
   body { min-width: 320px; background: linear-gradient(180deg, #f8f9ff 0%, #f1eef8 100%); }
   .site-hero, .site-main { width: min(1440px, calc(100% - 32px)); margin-inline: auto; }
-  .site-hero { padding: 30px 0 18px; }
+  .site-hero { padding: 28px 0 16px; }
   .site-kicker { margin: 0 0 6px; color: #6655a5; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
-  .site-hero h1 { margin: 0; font-size: clamp(28px, 5vw, 56px); line-height: 1; font-weight: 650; letter-spacing: -.035em; }
-  .site-subtitle { max-width: 760px; margin: 12px 0 0; color: #656574; font-size: 16px; line-height: 1.55; }
+  .site-hero h1 { margin: 0; font-size: clamp(28px, 5vw, 52px); line-height: 1; font-weight: 650; letter-spacing: -.035em; }
+  .site-subtitle { max-width: 820px; margin: 11px 0 0; color: #656574; font-size: 15px; line-height: 1.5; }
   .viewer { overflow: hidden; background: #fff; border: 1px solid #dedee9; border-radius: 22px; box-shadow: 0 20px 55px rgba(42, 37, 72, .09); }
-  iframe { display: block; width: 100%; height: 820px; margin: 0; border: 0; background: #fff; }
-  .gallery { padding: 54px 0 72px; }
-  .gallery h2 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 38px); letter-spacing: -.025em; }
-  .gallery-intro { margin: 0 0 22px; color: #656574; line-height: 1.55; }
-  .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-  figure { margin: 0; overflow: hidden; background: #fff; border: 1px solid #dedee9; border-radius: 18px; }
-  figure a { display: block; color: inherit; text-decoration: none; }
-  figure img { display: block; width: 100%; height: auto; aspect-ratio: 12 / 5; object-fit: cover; background: #eef2ff; }
-  figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 13px 15px 15px; color: #363642; font-size: 14px; }
-  figcaption span:last-child { color: #7262ad; }
-  .site-note { margin: 18px 0 0; color: #6d6d79; font-size: 13px; line-height: 1.5; }
+  iframe { display: block; width: 100%; height: 850px; margin: 0; border: 0; background: #fff; }
   @media (max-width: 720px) {
     .site-hero, .site-main { width: min(100% - 20px, 1440px); }
-    .site-hero { padding-top: 20px; }
+    .site-hero { padding-top: 18px; }
     .site-subtitle { font-size: 14px; }
     .viewer { border-radius: 15px; }
-    iframe { height: 790px; }
-    .gallery { padding: 38px 0 52px; }
-    .gallery-grid { grid-template-columns: 1fr; gap: 12px; }
-    figure { border-radius: 14px; }
+    iframe { height: 830px; }
   }
 </style>
 </head>
@@ -56,10 +43,10 @@
 <header class="site-hero">
   <p class="site-kicker">Помещение «Альпы» · 108 м²</p>
   <h1>Салон «БРАШ»</h1>
-  <p class="site-subtitle">Точная интерактивная модель с рабочими зонами, мебелью и оборудованием. Переключайте режимы и ракурсы, вращайте сцену или включите перестановку предметов.</p>
+  <p class="site-subtitle">Точная 3D-планировка без тяжёлых текстур. Выберите нужную зону, чтобы приблизить её, или включите перестановку мебели.</p>
 </header>
 <main class="site-main">
-<section class="viewer" aria-label="Интерактивная 3D-модель салона">
+<section class="viewer" aria-label="Интерактивная 3D-планировка салона">
 <iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Beauty Salon 3D" srcdoc="&lt;!doctype html&gt;
 &lt;html lang=&quot;ru&quot;&gt;
 &lt;head&gt;
@@ -963,13 +950,10 @@ html&gt;body{padding:0}&lt;/style&gt;
     #salon-3d-plan .salon-control-stack { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     #salon-3d-plan h2 { margin: 0; }
     #salon-3d-plan .salon-stage { position: relative; width: 100%; height: clamp(520px, 70vh, 760px); overflow: hidden; background: radial-gradient(circle at 50% 30%, color-mix(in srgb, var(--background) 94%, var(--blue) 6%), color-mix(in srgb, var(--background) 97%, var(--purple) 3%)); transition: background .25s ease; }
-    #salon-3d-plan .salon-stage.is-realistic { background: radial-gradient(circle at 52% 26%, color-mix(in srgb, var(--background) 86%, var(--blue) 14%), color-mix(in srgb, var(--background) 94%, var(--purple) 6%)); }
     #salon-3d-plan canvas { display: block; width: 100%; height: 100%; touch-action: none; }
     #salon-3d-plan .salon-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
     #salon-3d-plan .salon-label { position: absolute; transform: translate(-50%, -50%); padding: 2px 5px; border-radius: 4px; background: color-mix(in srgb, var(--background) 84%, transparent); color: var(--foreground); border: 1px solid color-mix(in srgb, var(--border) 70%, transparent); white-space: nowrap; font-weight: 500; transition: opacity .2s ease; }
-    #salon-3d-plan .salon-stage.is-realistic .salon-labels { opacity: 0; }
     #salon-3d-plan .salon-status { position: absolute; left: 8px; bottom: 8px; color: var(--muted-foreground); pointer-events: none; }
-    #salon-3d-plan .salon-stage.is-realistic .salon-status { display: none; }
     #salon-3d-plan .salon-stage.is-editing canvas { cursor: grab; }
     #salon-3d-plan .salon-stage.is-dragging canvas { cursor: grabbing; }
     #salon-3d-plan .salon-loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted-foreground); }
@@ -994,17 +978,20 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;div class=&quot;salon-head&quot;&gt;
     &lt;h2&gt;3D-план салона · по разметке&lt;/h2&gt;
     &lt;div class=&quot;salon-control-stack&quot;&gt;
-      &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Материалы&quot;&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-material=&quot;clean&quot; aria-pressed=&quot;false&quot;&gt;Планировка&lt;/button&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-material=&quot;textured&quot; aria-pressed=&quot;true&quot;&gt;Реалистичный вид&lt;/button&gt;
-      &lt;/div&gt;
       &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Ракурс&quot;&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-view=&quot;iso&quot; aria-pressed=&quot;true&quot;&gt;Общий вид&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;top&quot; aria-pressed=&quot;false&quot;&gt;Сверху&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;facade&quot; aria-pressed=&quot;false&quot;&gt;Фасад&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;reception&quot; aria-pressed=&quot;false&quot;&gt;Ресепшн&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;stylists&quot; aria-pressed=&quot;false&quot;&gt;Стилисты&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;wash&quot; aria-pressed=&quot;false&quot;&gt;Мойки&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;toilet&quot; aria-pressed=&quot;false&quot;&gt;Туалет&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;paints&quot; aria-pressed=&quot;false&quot;&gt;Краски&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;waiting&quot; aria-pressed=&quot;false&quot;&gt;Ожидание&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;brows&quot; aria-pressed=&quot;false&quot;&gt;Бровист&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;pedicure&quot; aria-pressed=&quot;false&quot;&gt;Педикюр&lt;/button&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;nails&quot; aria-pressed=&quot;false&quot;&gt;Маникюр&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-view=&quot;utility&quot; aria-pressed=&quot;false&quot;&gt;Кухня&lt;/button&gt;
       &lt;/div&gt;
       &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Перестановка мебели&quot;&gt;
         &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-edit aria-pressed=&quot;false&quot;&gt;Перестановка: выкл&lt;/button&gt;
@@ -1041,7 +1028,6 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;script type=&quot;module&quot;&gt;
     import * as THREE from &#x27;three&#x27;;
     import { OrbitControls } from &#x27;three/addons/controls/OrbitControls.js&#x27;;
-    import { RoundedBoxGeometry } from &#x27;three/addons/geometries/RoundedBoxGeometry.js&#x27;;
 
     const root = document.getElementById(&#x27;salon-3d-plan&#x27;);
     const stage = root.querySelector(&#x27;.salon-stage&#x27;);
@@ -1099,7 +1085,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     planCamera.position.set(15, 18, 25);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -1121,22 +1107,13 @@ html&gt;body{padding:0}&lt;/style&gt;
     const sun = new THREE.DirectionalLight(sceneLight, 2.55);
     sun.position.set(-6, 16, -9);
     sun.castShadow = true;
-    sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.mapSize.set(1024, 1024);
     sun.shadow.camera.left = -11;
     sun.shadow.camera.right = 11;
     sun.shadow.camera.top = 18;
     sun.shadow.camera.bottom = -4;
     sun.shadow.bias = -.00035;
     scene.add(sun);
-
-    const salonGlow = new THREE.PointLight(mixColor(sceneLight, palette.purple, .10), 10, 12, 1.8);
-    salonGlow.position.set(3.6, 3.8, 6.4);
-    salonGlow.userData.realisticOnly = true;
-    scene.add(salonGlow);
-    const rearGlow = new THREE.PointLight(mixColor(sceneLight, palette.blue, .10), 8, 10, 1.8);
-    rearGlow.position.set(3.0, 3.4, 12.0);
-    rearGlow.userData.realisticOnly = true;
-    scene.add(rearGlow);
 
     function mat(color, options = {}) {
       return new THREE.MeshStandardMaterial({
@@ -1159,58 +1136,6 @@ html&gt;body{padding:0}&lt;/style&gt;
     function cssColor(value, alpha = 1) {
       return `rgba(${(value &gt;&gt; 16) &amp; 255}, ${(value &gt;&gt; 8) &amp; 255}, ${value &amp; 255}, ${alpha})`;
     }
-    function patternTexture(kind, base, detail, repeatX, repeatY) {
-      const canvas = document.createElement(&#x27;canvas&#x27;);
-      canvas.width = canvas.height = 256;
-      const ctx = canvas.getContext(&#x27;2d&#x27;);
-      ctx.fillStyle = cssColor(base);
-      ctx.fillRect(0, 0, 256, 256);
-      let seed = 41;
-      const random = () =&gt; ((seed = seed * 1664525 + 1013904223 &gt;&gt;&gt; 0) / 4294967296);
-      if (kind === &#x27;wood&#x27;) {
-        ctx.strokeStyle = cssColor(detail, .32);
-        ctx.lineWidth = 2;
-        for (let y = 0; y &lt;= 256; y += 32) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(256, y); ctx.stroke(); }
-        for (let i = 0; i &lt; 42; i++) {
-          const y = random() * 256;
-          ctx.strokeStyle = cssColor(detail, .08 + random() * .12);
-          ctx.beginPath(); ctx.moveTo(0, y); ctx.bezierCurveTo(70, y + 8, 180, y - 8, 256, y + 2); ctx.stroke();
-        }
-      } else if (kind === &#x27;tile&#x27;) {
-        ctx.strokeStyle = cssColor(detail, .35);
-        ctx.lineWidth = 4;
-        for (let p = 0; p &lt;= 256; p += 64) { ctx.beginPath(); ctx.moveTo(p, 0); ctx.lineTo(p, 256); ctx.moveTo(0, p); ctx.lineTo(256, p); ctx.stroke(); }
-      } else if (kind === &#x27;plaster&#x27;) {
-        for (let i = 0; i &lt; 700; i++) {
-          ctx.fillStyle = cssColor(detail, .03 + random() * .08);
-          const r = .4 + random() * 1.2;
-          ctx.fillRect(random() * 256, random() * 256, r, r);
-        }
-      } else if (kind === &#x27;fabric&#x27;) {
-        ctx.strokeStyle = cssColor(detail, .15);
-        ctx.lineWidth = 1;
-        for (let p = 0; p &lt;= 256; p += 6) { ctx.beginPath(); ctx.moveTo(p, 0); ctx.lineTo(p, 256); ctx.moveTo(0, p); ctx.lineTo(256, p); ctx.stroke(); }
-      }
-      const texture = new THREE.CanvasTexture(canvas);
-      texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
-      texture.repeat.set(repeatX, repeatY);
-      texture.colorSpace = THREE.SRGBColorSpace;
-      return texture;
-    }
-
-    const wood = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.blue, .24), mixColor(sceneDark, palette.blue, .42), 4, 10);
-    const oak = patternTexture(&#x27;wood&#x27;, mixColor(sceneLight, palette.purple, .24), mixColor(sceneDark, palette.purple, .36), 2, 3);
-    const tile = patternTexture(&#x27;tile&#x27;, mixColor(sceneLight, palette.blue, .10), mixColor(sceneDark, sceneLight, .65), 5, 8);
-    const plaster = patternTexture(&#x27;plaster&#x27;, mixColor(sceneLight, sceneDark, .03), sceneDark, 3, 5);
-    const orangePlaster = patternTexture(&#x27;plaster&#x27;, palette.orange, sceneDark, 4, 6);
-    const fabric = patternTexture(&#x27;fabric&#x27;, mixColor(sceneDark, palette.blue, .34), sceneLight, 2, 2);
-    const paleFabric = patternTexture(&#x27;fabric&#x27;, mixColor(sceneLight, palette.purple, .25), mixColor(sceneDark, palette.purple, .40), 2, 2);
-    const screenFabric = patternTexture(&#x27;fabric&#x27;, mixColor(palette.blue, sceneLight, .52), mixColor(palette.purple, sceneDark, .24), 2, 3);
-    const concrete = patternTexture(&#x27;plaster&#x27;, mixColor(sceneDark, sceneLight, .62), sceneDark, 3, 3);
-    function textured(texture, options = {}) {
-      return new THREE.MeshStandardMaterial({ map: texture, color: options.color ?? 0xffffff, roughness: options.roughness ?? .72, metalness: options.metalness ?? 0, transparent: options.opacity !== undefined, opacity: options.opacity ?? 1, side: THREE.DoubleSide });
-    }
-
     const materials = {
       outer: mat(palette.orange), wall: mat(mixColor(sceneLight, palette.blue, .05), { opacity: 0.96 }), fixed: mat(sceneDark), floor: mat(mixColor(sceneLight, palette.blue, .08)),
       public: mat(palette.yellow, { opacity: 0.34 }), service: mat(palette.blue, { opacity: 0.30 }),
@@ -1218,13 +1143,6 @@ html&gt;body{padding:0}&lt;/style&gt;
       furniture: mat(mixColor(sceneLight, palette.blue, .14)), dark: mat(mixColor(sceneDark, palette.blue, .20)), upholstery: mat(mixColor(sceneLight, palette.purple, .18)), woodDark: mat(mixColor(sceneDark, palette.purple, .26)), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: 0.65, roughness: 0.25 }), brass: mat(mixColor(palette.yellow, sceneDark, .22), { metalness: .82, roughness: .20 }),
       accent: mat(mixColor(palette.purple, sceneLight, .22)), excluded: mat(mixColor(sceneDark, sceneLight, .58), { opacity: 0.5 }), screen: mat(mixColor(palette.blue, sceneLight, .34)),
       glass: mat(palette.blue, { opacity: .24, roughness: .08 }), tv: mat(sceneDark), ceramic: mat(sceneLight, { roughness: .18 }), mirror: mat(mixColor(sceneLight, palette.blue, .30), { metalness: .88, roughness: .08 }), led: mat(sceneLight, { emissive: sceneLight, emissiveIntensity: 2.8, roughness: .16 }), plant: mat(mixColor(palette.green, sceneDark, .18), { roughness: .8 })
-    };
-    const texturedMaterials = {
-      outer: textured(orangePlaster, { roughness: .92 }), wall: textured(plaster, { roughness: .9 }), fixed: textured(concrete, { roughness: .94 }), floor: textured(wood),
-      public: textured(wood), service: textured(tile, { roughness: .82 }), work: textured(wood), private: textured(wood),
-      furniture: textured(oak, { roughness: .62 }), dark: textured(fabric, { roughness: .9 }), upholstery: textured(paleFabric, { roughness: .92 }), woodDark: textured(oak, { color: mixColor(sceneDark, palette.purple, .35), roughness: .58 }), metal: mat(mixColor(sceneDark, sceneLight, .62), { metalness: .72, roughness: .2 }), brass: mat(mixColor(palette.yellow, sceneDark, .22), { metalness: .85, roughness: .18 }),
-      accent: textured(tile, { roughness: .52 }), excluded: textured(concrete, { roughness: .95 }), screen: textured(screenFabric, { roughness: .82 }),
-      glass: new THREE.MeshPhysicalMaterial({ color: mixColor(sceneLight, palette.blue, .18), transparent: true, opacity: .30, roughness: .04, metalness: .05, transmission: .56, thickness: .06, side: THREE.DoubleSide }), tv: mat(sceneDark, { roughness: .12 }), ceramic: mat(sceneLight, { roughness: .12, metalness: .02 }), mirror: new THREE.MeshPhysicalMaterial({ color: mixColor(sceneLight, palette.blue, .16), metalness: .94, roughness: .035, clearcoat: 1, clearcoatRoughness: .04, side: THREE.DoubleSide }), led: mat(sceneLight, { emissive: sceneLight, emissiveIntensity: 4.2, roughness: .08 }), plant: mat(mixColor(palette.green, sceneDark, .12), { roughness: .88 })
     };
     const materialKeys = new Map(Object.entries(materials).map(([key, value]) =&gt; [value, key]));
     function trackMaterial(mesh, material) {
@@ -1250,8 +1168,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       return trackMaterial(mesh, material);
     }
     function roundedBox(x, z, w, d, h, material, y = h / 2, parent = scene, radius = .08) {
-      const safeRadius = Math.min(radius, w / 2 - .005, d / 2 - .005, h / 2 - .005);
-      const mesh = new THREE.Mesh(new RoundedBoxGeometry(w, h, d, 4, Math.max(.005, safeRadius)), material);
+      const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), material);
       mesh.position.set(x, y, z);
       mesh.castShadow = true;
       mesh.receiveShadow = true;
@@ -1721,9 +1638,16 @@ html&gt;body{padding:0}&lt;/style&gt;
       iso: { projection: &#x27;plan&#x27;, position: new THREE.Vector3(15, 18, 25), target: new THREE.Vector3(2.35, .55, 7.80), up: new THREE.Vector3(0, 1, 0), zoom: 1.05 },
       top: { projection: &#x27;plan&#x27;, position: new THREE.Vector3(2.351, 30, 7.801), target: new THREE.Vector3(2.35, 0, 7.80), up: new THREE.Vector3(0, 0, -1), zoom: .94 },
       facade: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.25, 1.72, -4.5), target: new THREE.Vector3(2.30, .92, .86), up: new THREE.Vector3(0, 1, 0), fov: 42 },
+      reception: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(4.10, 2.30, -.55), target: new THREE.Vector3(1.00, .78, 1.72), up: new THREE.Vector3(0, 1, 0), fov: 53 },
       stylists: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(1.42, 2.42, 4.62), target: new THREE.Vector3(4.65, .98, 2.12), up: new THREE.Vector3(0, 1, 0), fov: 53 },
       wash: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.86, 2.70, 6.78), target: new THREE.Vector3(1.48, .78, 5.02), up: new THREE.Vector3(0, 1, 0), fov: 57 },
-      nails: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.72, 2.32, 13.08), target: new THREE.Vector3(5.30, .88, 11.18), up: new THREE.Vector3(0, 1, 0), fov: 52 }
+      toilet: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(3.62, 2.48, 8.02), target: new THREE.Vector3(1.02, .64, 7.84), up: new THREE.Vector3(0, 1, 0), fov: 54 },
+      paints: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(5.35, 2.45, 6.34), target: new THREE.Vector3(3.40, 1.02, 6.40), up: new THREE.Vector3(0, 1, 0), fov: 52 },
+      waiting: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(3.78, 2.28, 5.52), target: new THREE.Vector3(5.72, .68, 5.52), up: new THREE.Vector3(0, 1, 0), fov: 52 },
+      brows: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(3.72, 2.20, 8.28), target: new THREE.Vector3(5.78, .76, 8.28), up: new THREE.Vector3(0, 1, 0), fov: 50 },
+      pedicure: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.00, 2.42, 11.20), target: new THREE.Vector3(-.72, .68, 11.02), up: new THREE.Vector3(0, 1, 0), fov: 52 },
+      nails: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(2.72, 2.32, 13.08), target: new THREE.Vector3(5.30, .88, 11.18), up: new THREE.Vector3(0, 1, 0), fov: 52 },
+      utility: { projection: &#x27;photo&#x27;, position: new THREE.Vector3(4.18, 2.72, 14.72), target: new THREE.Vector3(1.46, .72, 14.26), up: new THREE.Vector3(0, 1, 0), fov: 56 }
     };
     let activeView = &#x27;iso&#x27;;
     let goal = views[activeView];
@@ -1756,30 +1680,12 @@ html&gt;body{padding:0}&lt;/style&gt;
         });
       });
     });
-    function applyMaterialMode(texturedMode) {
-      scene.traverse(object =&gt; {
-        if (object.isMesh &amp;&amp; object.userData.materialKey) {
-          object.material = texturedMode ? texturedMaterials[object.userData.materialKey] : materials[object.userData.materialKey];
-        }
-        if (object.userData.realisticOnly) object.visible = texturedMode;
-        if (object.userData.layoutOnly) object.visible = !texturedMode;
-      });
-      grid.visible = !texturedMode;
-      stage.classList.toggle(&#x27;is-realistic&#x27;, texturedMode);
-      renderer.toneMappingExposure = texturedMode ? 1.16 : 1.04;
-    }
-    root.querySelectorAll(&#x27;[data-material]&#x27;).forEach(button =&gt; {
-      button.addEventListener(&#x27;click&#x27;, () =&gt; {
-        const texturedMode = button.dataset.material === &#x27;textured&#x27;;
-        applyMaterialMode(texturedMode);
-        root.querySelectorAll(&#x27;[data-material]&#x27;).forEach(candidate =&gt; {
-          const active = candidate === button;
-          candidate.setAttribute(&#x27;aria-pressed&#x27;, String(active));
-          candidate.classList.toggle(&#x27;btn-primary&#x27;, active);
-        });
-      });
+    scene.traverse(object =&gt; {
+      if (object.userData.realisticOnly) object.visible = false;
+      if (object.userData.layoutOnly) object.visible = true;
     });
-    applyMaterialMode(true);
+    grid.visible = true;
+    renderer.toneMappingExposure = 1.04;
     applyView(&#x27;iso&#x27;);
 
     const editButton = root.querySelector(&#x27;[data-edit]&#x27;);
@@ -2305,17 +2211,6 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 "></iframe>
-</section>
-<section class="gallery" aria-labelledby="gallery-title">
-  <h2 id="gallery-title">Точные ракурсы из модели</h2>
-  <p class="gallery-intro">Это не отдельно придуманные изображения: каждый кадр снят непосредственно из интерактивной сцены и сохраняет текущую расстановку.</p>
-  <div class="gallery-grid">
-    <figure><a href="render-facade.jpg" download><img src="render-facade.jpg" alt="Фасад салона БРАШ с панорамным окном, перпендикулярной вывеской и открытой дверью"><figcaption><span>Фасад и единственный вход</span><span>Скачать</span></figcaption></a></figure>
-    <figure><a href="render-stylists.jpg" download><img src="render-stylists.jpg" alt="Четыре рабочих места стилистов с отдельными зеркалами и подсветкой"><figcaption><span>Рабочие места стилистов</span><span>Скачать</span></figcaption></a></figure>
-    <figure><a href="render-wash.jpg" download><img src="render-wash.jpg" alt="Две профессиональные мойки для волос и гарнитур с раковиной"><figcaption><span>Мойки и рабочая раковина</span><span>Скачать</span></figcaption></a></figure>
-    <figure><a href="render-nails.jpg" download><img src="render-nails.jpg" alt="Длинный маникюрный стол на три места, кресла и телевизор"><figcaption><span>Маникюрная зона</span><span>Скачать</span></figcaption></a></figure>
-  </div>
-  <p class="site-note">Визуализация предназначена для проверки компоновки и габаритов. Перед ремонтом размеры инженерных выводов и проходов стоит подтвердить обмером на месте.</p>
 </section>
 </main>
 </body>
